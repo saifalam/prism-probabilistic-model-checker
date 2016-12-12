@@ -8,7 +8,7 @@
 ctmc //current time Markov chain
 
 const double fr = 0.05; // Annual Failure rate 5%
-const int dsk = 4; //number of disks for distributesd 3/4 coding
+const int dsk = 4;      //number of disks for distributesd 3/4 coding
 const double rr;
 
 module disk

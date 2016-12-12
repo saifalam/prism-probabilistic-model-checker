@@ -6,7 +6,7 @@
 
 ctmc //current time Markov chain
 
-const double fr = 0.05; // Annual Failure rate 5%
+const double fr = 0.05;     // Annual Failure rate 5%
 
 module disk
          ss: [0..1] init 1; // durable 1 , 0 failed

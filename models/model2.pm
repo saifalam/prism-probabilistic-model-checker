@@ -7,9 +7,9 @@
 
 ctmc //current time Markov chain
 
-const double fr = 0.05; // Annual Failure rate 5%
-const int d = 2; // number of disks
-const double rr; // put the value when run the program like 365 OR 8760 etc
+const double fr = 0.05;    // Annual Failure rate 5%
+const int d = 2;           // number of disks
+const double rr;           // put the value when run the program like 365 OR 8760 etc
 
 module disk
         ss: [0..d] init d; // durable d>0 , 0 failed
