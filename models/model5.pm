@@ -21,7 +21,7 @@ const double Dfr = 0.05;    	// Disk Failure rate
 const double Drr;		// Disk Repair rate
 
 
-module assignment
+module dataCenter
 
 	ss:[0..2] init 2;  	// Data Centers
 	ss1:[0..4] init 4; 	// Disks
